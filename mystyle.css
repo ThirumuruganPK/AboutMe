@@ -1,24 +1,41 @@
 /* It's my style sheet to workout for aboutme webpages*/
-h2{
-	color:red;
-	font-family: 'Raleway', sans-serif;
-}
-.ul_display_style{
-	display: inline;
-}
 body{
-	font-size: 16px;
+	margin: 0 ;
 }
-#textalign{
-	text-align: justify;
+a{
+	text-decoration: none;
+}
+.header-menu{
+	background: gray;
+	height: 50px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	height: 50px;
+	padding: 0 15px;
+	line-height: 50px;
+}
+a:hover{
+		color:red;
+}
+li:hover{
+	background-color: white;
+	text-shadow: 2px 2px 2px yellow;
+}
+#header-img{
 	background-color: gray;
-	text-decoration: none;
-	color:white;
-	line-height: 1.2;
-	font-weight: normal;
-	text-transform: capitalize;
-	word-spacing: 0.3rem;
+	border: 2px green solid ;
+	width: 200px;
 }
-#textdecorate{
-	text-decoration: none;
+#header{
+	background-color: #6200EE;
+}
+/*  header end     */
+
+#content{
+	width: 100%;
+	height: 700px;
+
+
 }
