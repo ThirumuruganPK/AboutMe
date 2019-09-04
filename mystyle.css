@@ -1,0 +1,24 @@
+/* It's my style sheet to workout for aboutme webpages*/
+h2{
+	color:red;
+	font-family: 'Raleway', sans-serif;
+}
+.ul_display_style{
+	display: inline;
+}
+body{
+	font-size: 16px;
+}
+#textalign{
+	text-align: justify;
+	background-color: gray;
+	text-decoration: none;
+	color:white;
+	line-height: 1.2;
+	font-weight: normal;
+	text-transform: capitalize;
+	word-spacing: 0.3rem;
+}
+#textdecorate{
+	text-decoration: none;
+}
