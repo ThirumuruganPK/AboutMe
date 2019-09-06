@@ -1,0 +1,19 @@
+.logo{
+	float: left;
+}
+.logo-msg{
+	text-align: right;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #777777;
+	font-size: medium;
+	word-spacing: 2.5px;
+	padding: 50px 3px 0 0;
+	margin-top: 20px;
+}
+.bg-color{
+	background-color: #111111;
+}
+a:hover{
+	color: red;
+}
