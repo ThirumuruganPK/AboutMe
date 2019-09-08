@@ -35,32 +35,6 @@
 .content-color{
 	background-color: #f5f6fa;
 }
-.content-header{
-	text-align: justify;
-	font-weight:600;
-	text-align: left;
-	padding-left: 10%;
-	padding-top: 35%;
-}
-.content-header-bold{
-	font-weight: 900;
-}
-.content-description{
-	text-align: justify;
-	text-transform: capitalize;
-	padding-left: 10%;
-	font-weight:600;
-}
-.content-bg{
-	background-image: url('../img/bg.jpg');
-	background-size: cover;
-	width: 100%;
-	height:800px;
-}
-.content-desc-color{
-	background-color: #ffffff;
-	text-align: justify;
-}
 .contact-mail{
 	width: 100%;
 	min-height: 300px;
