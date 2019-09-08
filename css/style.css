@@ -12,5 +12,26 @@
 	margin-top: 20px;
 }
 .bg-color{
-	background-color: #111111;
+	background-color: #dcdde1;
+
+}
+.footer-social{
+	padding-left:5px;
+}
+.footer-social-span{
+	margin-left: 45%;
+}
+.footer-header{
+	text-align: center;
+}
+.footer-line{
+	
+}
+.footer-copyright{
+	text-align: center;
+}
+/* footer and header end*/
+
+.content-color{
+	background-color: #f5f6fa;
 }
