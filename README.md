@@ -6,5 +6,5 @@ This is the Static website as simply my small intro.
 2.css
 
 #Frameworks
-3.Bootstrap
+1.Bootstrap
 
