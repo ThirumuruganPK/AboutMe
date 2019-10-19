@@ -8,3 +8,6 @@ This is the Static website as simply my small intro.
 #Frameworks
 1.Bootstrap
 
+#Clind-side script
+1.JavaScript
+
