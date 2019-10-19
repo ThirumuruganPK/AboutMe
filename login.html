@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>SignUp</title>
 	<meta charset="utf-8">
 	<meta name="author" content="Thirumurugan">
 	<meta name="keyword" content="Aboutme,protofolio,bio,selfintro">
 	<meta name="viewport" content="width="device-width,initial-scale="1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/stylelogin.css">
+	<link rel="stylesheet" type="text/css" href="css/stylelogin.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Titillium+Web|Ubuntu&display=swap" rel="stylesheet">
@@ -49,56 +49,54 @@
   </div>
 </nav>
 <!-- Header ends -->
-
-<!-- content start -->
-<div class="container-fluid">
+<div class="container-fluid">	
 	<div class="row">
-		<div class="col-md-12">
-          <img src="img/bg1.jpg" alt="my photo" style="width:100%;">
-      </div>
-		</div>
-	</div>
-</div>	
-<div class="container">
-  <h2><b>Education</b></h2>
-  <p>Let's see following below on my school's and college details.</p>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="http://www.debrittohssdvk.org/" target="_blank">
-          <img src="img/sslc.jpg" alt="sslc " style="width:100%;height: 200px;">
-        </a>
-          <div class="caption content-desc-color">
-          	<h3>SSLC</h3>
-            <p>De Britto Higher Secondary School is a Jesuit school in Ramnagar, Devakottai, in Sivagangai District of Tamil Nadu, India. It is one of the institutions of Jesuit Madurai Province. The school is named after the Jesuit John de Britto. It is a State Board school.</p>
-          </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="http://www.laurelschoolcbse.com/" target="_blank">
-          <img src="img/hsc.jpg" alt="hsc" style="width:100%;height: 200px;">
-        </a>
-          <div class="caption content-desc-color">
-          	<h3>HSC</h3>
-            <p>Laurel Secondary School (CBSE) was started in the year 2006 June with the sole idea of ... Correspondent of Laurel Higher Secondary School, Aranthangi.</p>
-          </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="http://jeppiaarcollege.org/" target="_blank">
-          <img src="img/clg.jpg" alt="clg" style="width:100%; height: 200px;">
-        </a>
-          <div class="caption content-desc-color">
-          	<h3>Degree</h3>
-            <p>Jeppiaar Engineering College is one of the institutions of Jeppiaar Educational Trust and was established on 15 August 2001. The college is a Christian Minority Institution. This is run by Sr. Arockiamary DMI.</p>
-          </div>
-      </div>
-    </div>
-  </div>
+			<div class="col-xs-12">
+			  	<h2 class="login-header form-text">Create  Account</h2>
+			</div>	
+
+			<div class="col-xs-8 login-details-align">
+						<form class="form-horizontal form-align" action="loginrecord.html" onsubmit="return validate()" name="myForm">
+						    <div class="form-group">
+						      <label class="control-label col-sm-2 form-text" for="name">First name: <span>*</span></label>
+						      <div class="col-sm-3">
+						        <input type="text" class="form-control" id="email" placeholder="Enter First Name" name="Fname">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="control-label col-sm-2 form-text" for="email">Last name: <span>*</span></label>
+						      <div class="col-sm-3">
+						        <input type="text" class="form-control" id="email" placeholder="Enter Last Name" name="Lname">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="control-label col-sm-2 form-text" for="email">Fathername:</label>
+						      <div class="col-sm-3">
+						        <input type="text" class="form-control" id="email" placeholder="Enter Father Name" name="Fathername">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="control-label col-sm-2 form-text" for="number">Mobile no: <span>*</span></label>
+						      <div class="col-sm-3">
+						        <input type="number" class="form-control" id="number" placeholder="Enter Mobile No" name="MobileNo">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="control-label col-sm-2 form-text" for="email">Email id: <span>*</span></label>
+						      <div class="col-sm-3">          
+						        <input type="email" class="form-control" id="email" placeholder="Enter Email id" name="Email">
+						      </div>
+						    </div>
+						    <div class="form-group">        
+						      <div class="col-sm-offset-2 col-sm-3">
+						        <button type="submit" class="btn btn-success">Submit</button>
+						        <button type="reset" class="btn btn-danger">Reset</button>
+						      </div>
+						    </div>
+						  </form>
+			  		</div>
+			</div>
 </div>
-<!-- content end -->
 
 <!-- Footer start -->
 <div class="container-fluid bg-color">

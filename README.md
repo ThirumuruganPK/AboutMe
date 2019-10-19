@@ -1,13 +1,2 @@
 # AboutMe
-This is the Static website as simply my small intro.
-
-#Technologies
-1.html
-2.css
-
-#Frameworks
-1.Bootstrap
-
-#Clind-side script
-1.JavaScript
-
+It is a Website to my Self
